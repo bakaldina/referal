@@ -81,7 +81,9 @@ h2 {
     width: 40%;
     height: 570px;
     background-image: url(img/phone.png);
-    background-size: cover
+    background-size: cover;
+    position: relative;
+    z-index: 4444;
 }
 .phone-slide {
     width: 100%;
@@ -118,6 +120,10 @@ h2 {
     right: -30px;
     top: 47%;
     z-index: 4;
+}
+.slick-list {
+    left: 13px;
+    top: 60px;
 }
 .slick-dots {
     bottom: -27px;

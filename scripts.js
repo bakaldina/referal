@@ -1,7 +1,10 @@
-$(document).ready(function(){
+  $(document).ready(function(){
     $('.phone-slide').slick({
-        arrows: true,
-        dots: true
+        dots: true,
+        infinite: true,
+        speed: 10,
+        fade: true,
+        cssEase: 'linear'
     });
-  });
+});
  
